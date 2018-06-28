@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/ysCharles/TLQRCode.git", :tag => "#{s.version}" }
   s.platform 	 = :ios, "8.0"
 
-  s.source_files  = "Sources/*.swift"
+  s.source_files  = "Sources/**/*.swift"
 
   s.resources = "Sources/*.xcassets"
 
