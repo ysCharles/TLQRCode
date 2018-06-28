@@ -13,6 +13,7 @@
 		9EB7C4EB20E47A7400A843B8 /* QRCodeReaderResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB7C4E420E47A7400A843B8 /* QRCodeReaderResult.swift */; };
 		9EB7C4EC20E47A7400A843B8 /* QRCodeReaderViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB7C4E520E47A7400A843B8 /* QRCodeReaderViewBuilder.swift */; };
 		9EB7C4ED20E47A7400A843B8 /* QRCode.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7C4E620E47A7400A843B8 /* QRCode.xcassets */; };
+		9EB7C4F020E4815E00A843B8 /* QRCodeUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB7C4EF20E4815E00A843B8 /* QRCodeUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9EB7C4E520E47A7400A843B8 /* QRCodeReaderViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeReaderViewBuilder.swift; sourceTree = "<group>"; };
 		9EB7C4E620E47A7400A843B8 /* QRCode.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = QRCode.xcassets; sourceTree = "<group>"; };
 		9EB7C4E720E47A7400A843B8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EB7C4EF20E4815E00A843B8 /* QRCodeUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				9EB7C4E520E47A7400A843B8 /* QRCodeReaderViewBuilder.swift */,
 				9EB7C4E620E47A7400A843B8 /* QRCode.xcassets */,
 				9EB7C4E720E47A7400A843B8 /* Info.plist */,
+				9EB7C4EF20E4815E00A843B8 /* QRCodeUtil.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				9EB7C4EA20E47A7400A843B8 /* QRCodeScanViewController.swift in Sources */,
 				9EB7C4E920E47A7400A843B8 /* QRCodeReader.swift in Sources */,
 				9EB7C4E820E47A7400A843B8 /* DefaultReaderView.swift in Sources */,
+				9EB7C4F020E4815E00A843B8 /* QRCodeUtil.swift in Sources */,
 				9EB7C4EC20E47A7400A843B8 /* QRCodeReaderViewBuilder.swift in Sources */,
 				9EB7C4EB20E47A7400A843B8 /* QRCodeReaderResult.swift in Sources */,
 			);
