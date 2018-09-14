@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "TLQRCode"
-  s.version      = "0.2"
+  s.version      = "0.3"
   s.summary      = "二维码扫描生成工具"
 
   s.homepage     = "https://github.com/ysCharles/TLQRCode"
