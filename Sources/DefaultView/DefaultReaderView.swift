@@ -86,13 +86,13 @@ class DefaultReaderView: UIView {
         //3.添加其他有效控件
         addSubview(self.tip)
         
-        self.link.add(to: RunLoop.main, forMode: RunLoopMode.commonModes)
+        self.link.add(to: RunLoop.main, forMode: RunLoop.Mode.common)
     }
     
     private weak var reader: QRCodeReader?
     
     deinit {
-        self.link.remove(from: RunLoop.main, forMode: RunLoopMode.commonModes)
+        self.link.remove(from: RunLoop.main, forMode: .common)
     }
     
     // MARK:- 属性
