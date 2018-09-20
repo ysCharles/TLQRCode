@@ -1,0 +1,5 @@
+language: Swift
+osx_image: xcode10
+xcode_project: TLQRCode.xcodeproj
+script: xcodebuild -project TLQRCode.xcodeproj -scheme "TLQRCode" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone X,OS=latest'
+
