@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "TLQRCode"
-  s.version      = "0.4"
+  s.version      = "0.5"
   s.summary      = "二维码扫描生成工具"
 
   s.homepage     = "https://github.com/ysCharles/TLQRCode"
@@ -32,5 +32,5 @@ Pod::Spec.new do |s|
   s.frameworks = "UIKit", "AVFoundation"
 
 
-  s.swift_version = '4.2'
+  s.swift_version = '5'
 end

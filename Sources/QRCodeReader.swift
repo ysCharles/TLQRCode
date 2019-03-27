@@ -108,6 +108,8 @@ public class QRCodeReader: NSObject {
             if let _defaultDeviceInput = defaultDeviceInput {
                 session.addInput(_defaultDeviceInput)
             }
+        @unknown default:
+            fatalError()
         }
         
         // 添加 metadata output
@@ -278,6 +280,8 @@ extension QRCodeReader {
             return .portrait
         case .portraitUpsideDown:
             return .portraitUpsideDown
+        @unknown default:
+            fatalError()
         }
     }
     
